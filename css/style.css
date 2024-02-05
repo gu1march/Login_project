@@ -1,0 +1,19 @@
+header{
+    height: calc(100vh - 150px);
+    background: no-repeat center/cover url(../imgs/background_logo.jpeg);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    margin: 0 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+}

@@ -1,0 +1,31 @@
+.login_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #191f25f5;
+    color: #75e6b2;
+}
+
+.butom_submit{
+    display: flex;
+    justify-content: center;
+}
+
+.border{
+    padding-bottom: 15px;
+}
+
+.mb-3{
+    margin: 15px;
+}
+
+.form-control{
+    background-color: #18181891;
+    color: #75e6b2;
+}
+/* 
+.border-success {
+    --bs-border-opacity: 1;
+    border-color: rgba(var(--bs-success-rgb), var(--bs-border-opacity)) !important;
+  } */
