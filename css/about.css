@@ -6,8 +6,17 @@
     justify-content: end;
 }
 
+.navbar-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    align-self: flex-end;
+    width: 800px;
+    
+}
+
 .form-control {
-    margin-right: 17px;
+    margin-right: 14px;
 }
 
 .input-group-text {
@@ -16,4 +25,20 @@
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 20%;
     background-color: var(--bs-gray-200) ;
+}
+
+#navbarSupportedContent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.form-inline{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bg-light {
+    background-color:var(--bs-gray-400) ;
 }
