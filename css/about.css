@@ -45,25 +45,12 @@
 
 .about-form {
     display: flex;
-    /* background-image: url("https://images.squarespace-cdn.com/content/v1/5cca67019b7d151b2d1eec69/1559102056171-OPVKSLZBYRZO78IN10TM/ke17ZwdGBToddI8pDm48kDrQ9tfdcvPUv7NgXGP4R2R7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0gmXcXvEVFTLbYX9CdVcGe4zwrosjp5YtnrvbmlM1LFKb7wNXE8lRZ0Z8l5PIsW3Vw/thomas-website-background.jpg"); */
     flex-direction: column;
     justify-content: start;
     align-items: center;
     max-width: 100%;
     height: 88vh;
     max-height: fit-content;
-}
-
-#setaa {
-    border-left: 10px;
-    height: 200px;
-    width: 100px;
-    position: relative;
-}
-
-.seta {
-    display: flex;
-    flex-direction: row;
 }
 
 .span-about {
@@ -83,7 +70,6 @@
 
 .title2 {
    display: none;
-    
 }
 
   /* Currently working as an intern in IT infrastructure for Global Teams team at Scania Latin America, where I'm involved in the support for systems integration, end user support, and global application support. 
