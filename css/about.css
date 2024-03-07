@@ -88,6 +88,30 @@
     width: 600px;
 }
 
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 85px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.card-img-top {
+    width: 286px;
+    height: 180px;
+    border-bottom: solid 0.5px black;
+}
+
+.card {
+    align-items: center;
+    width: 18rem;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: rgba(0, 225, 255, 0.911);
+    scale: 1.1;
+}
 
 /* Alterar: Titulo */
 @media only screen and (max-width: 1170px) {
@@ -102,7 +126,6 @@
     #navbarSupportedContent{justify-content:end;margin-right: 15px;}
     #text-about-experience{word-break: normal;}
     .sec-1{width: auto;}
-    #work{width: 450px;height: 450px;}
 }
 
 

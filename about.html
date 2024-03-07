@@ -65,30 +65,48 @@
   </nav>
   <main class="main">
     <div class="about-form" onmouseover="palavra_rgb(random_cor())">
-        <h1>About me</h1>
+      <h1>About me</h1>
+      <h3 style="margin-top: 25px;">Working and Learning</h3>
+      <img src="imgs/about_page_knowledge.png" class="img_me">
+      <div class="sec-1">
+        <p>Currently working as an intern in IT infrastructure for Global Teams team at Scania Latin America, where I'm involved in the support for systems integration, end user support, and global application support. 
+        Holding a bachelor's degree in Information Systems from Anhembi Morumbi University at the 3°year of graduation and a technical diploma in Industrial Automation from Escola Politécnica Brasileira.
+        With experience with:
         <br>
-        <h3>Worked and learned<span id="title2" class="title2">Working and Learning</span></h3>
-        <img id="work" src="./imgs/giphy.gif">
-        <div class="sec-1">
-          <p>Experienced a lot about <span id="project-span1" class="span-about" onmouseover="muda_img(0)">project coordination</span>, <span id="project-span2" class="span-about" onmouseover="muda_img(1)">machine integration</span> and <span id="project-span3" class="span-about" onmouseover="muda_img(2)">Industrials process automation</span>.</p>
-          <p id="text-about-experience">In my role as Project Coordinator at Scania, I spearheaded the coordination of a pivotal Control Tower project, overseeing a budget of R$100,000 and navigating a tight 3-month deadline. This experience honed my skills in resource allocation, strategic planning, and agile project management. I adeptly developed and executed a detailed project plan, leading a cross-functional team through multiple milestones, ultimately surpassing project expectations. My journey in project coordination extends beyond a singular project, encompassing diverse initiatives that have collectively refined my abilities. Through the coordination of various projects, I've cultivated proficiency in effective communication, team collaboration, and adaptability. These experiences have equipped me with a robust skill set and a proven track record, making me well-prepared to contribute successfully to future projects and navigate the dynamic landscape of project coordination.</p>
+        Programming Languages such as JS, TS and Python.
+        <br>
+        Frameworks as Bootstrap, React and Angular. 
+        <br>
+        Web development with HTML5 and CSS3. 
+        <br>
+        I'm prepared to take on challenges in the field of IT. I'm fluent in Portuguese and proficient in English</p>
+      </div>    
+      <br>
+      <h3>Worked and learned<span id="title2" class="title2">Working and Learning</span></h3>
+      <!-- cards -->
+      <div class="cards">
+        <div class="card" id="card-1" onclick="select_card(0)">
+          <img src="imgs/giphy.gif" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Project Coordination</h5>
+          </div>
         </div>
-        <br>
-        <h3>Working and Learning</h3>
-        <img src="imgs/about_page_knowledge.png" class="img_me">
-        <div class="sec-1">
-          <p>Currently working as an intern in IT infrastructure for Global Teams team at Scania Latin America, where I'm involved in the support for systems integration, end user support, and global application support. 
-          Holding a bachelor's degree in Information Systems from Anhembi Morumbi University at the 3°year of graduation and a technical diploma in Industrial Automation from Escola Politécnica Brasileira.
-          With experience with:
-          <br>
-          Programming Languages such as JS, TS and Python.
-          <br>
-          Frameworks as Bootstrap, React and Angular. 
-          <br>
-          Web development with HTML5 and CSS3. 
-          <br>
-          I'm prepared to take on challenges in the field of IT. I'm fluent in Portuguese and proficient in English</p>
-        </div>    
+        <div class="card" id="card-2" onclick="select_card(1)">
+          <img src="imgs/machine integ.gif" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Machine Integration</h5>
+          </div>
+        </div>
+        <div class="card" id="card-3" onclick="select_card(2)">
+          <img src="imgs/process automation.gif" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Industrials Process Automation</h5>
+          </div>
+        </div>
+      </div>
+      <div class="sec-1">
+        <p id="text-about-experience">In my role as Project Coordinator at Scania, I spearheaded the coordination of a pivotal Control Tower project, overseeing a budget of R$100,000 and navigating a tight 3-month deadline. This experience honed my skills in resource allocation, strategic planning, and agile project management. I adeptly developed and executed a detailed project plan, leading a cross-functional team through multiple milestones, ultimately surpassing project expectations. My journey in project coordination extends beyond a singular project, encompassing diverse initiatives that have collectively refined my abilities. Through the coordination of various projects, I've cultivated proficiency in effective communication, team collaboration, and adaptability. These experiences have equipped me with a robust skill set and a proven track record, making me well-prepared to contribute successfully to future projects and navigate the dynamic landscape of project coordination.</p>
+      </div>
     </div>
   </main>
   <script src="./js/about.js"></script>
