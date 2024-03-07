@@ -58,6 +58,11 @@
     height: 76vh;
 }
 
+#work {
+    width: 750px;
+    height: 400px;
+}
+
 .span-about {
     color: rgba(179, 118, 6, 0.692);
     max-width: fit-content;
@@ -83,6 +88,7 @@
     width: 600px;
 }
 
+
 /* Alterar: Titulo */
 @media only screen and (max-width: 1170px) {
     .navbar-brand {display: none;}
@@ -91,8 +97,12 @@
 
 
 /*devices (989px and down) */
-@media only screen and (max-width: 989px) {
-    /* .about-form {background: red;} */
+@media only screen and (max-width: 992px) {
+    .form-inline {display: none;}
+    #navbarSupportedContent{justify-content:end;margin-right: 15px;}
+    #text-about-experience{word-break: normal;}
+    .sec-1{width: auto;}
+    #work{width: 450px;height: 450px;}
 }
 
 
