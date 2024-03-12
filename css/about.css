@@ -3,7 +3,7 @@
 }
 .navbar {
     --bs-navbar-brand-font-size: 1.6rem;
-    justify-content: end;
+    justify-content: space-between;
 }
 
 #logo {
@@ -12,10 +12,10 @@
 
 .navbar-nav {
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    align-self: flex-end;
-    width: 800px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .form-control {
@@ -127,7 +127,7 @@
 /*devices (992px and down) */
 @media only screen and (max-width: 992px) {
     .form-inline {display: none;}
-    #navbarSupportedContent{justify-content:end;margin-right: 15px;}
+    #navbarSupportedContent{justify-content:space-evenly;margin-right: 15px;}
     #text-about-experience{word-break: normal;}
     .sec-1{width: auto;}
 }
